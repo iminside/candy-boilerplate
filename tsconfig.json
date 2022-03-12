@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es5",
+        "strict": true,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "lib": ["dom", "esnext"],
+        "rootDir": "./src",
+        "jsx": "preserve",
+        "plugins": [{ "name": "typescript-plugin-candy" }]
+    },
+    "include": ["./src"]
+}

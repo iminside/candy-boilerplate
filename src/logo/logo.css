@@ -8,7 +8,7 @@
 
 .logo {
     background-image: url(./images/candy.svg);
-    background-size: 220px;
+    background-size: var(--size);
     background-position: left center;
     background-repeat: no-repeat;
     display: flex;
